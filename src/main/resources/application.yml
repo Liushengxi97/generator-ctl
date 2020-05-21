@@ -1,0 +1,5 @@
+server:
+  port: 15521
+
+file:
+  path: /root/files/
