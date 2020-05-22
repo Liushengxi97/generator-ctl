@@ -3,3 +3,10 @@ server:
 
 file:
   path: /root/files/
+  temp: temp/
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
